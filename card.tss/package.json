@@ -1,0 +1,11 @@
+{
+  "name": "card-preview",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server -c-1 -p 5500"
+  },
+  "devDependencies": {
+    "http-server": "^0.13.0"
+  }
+}
