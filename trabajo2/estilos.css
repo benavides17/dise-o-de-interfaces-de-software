@@ -1,0 +1,54 @@
+:root {
+    --bg-top: #f7fbfe;
+    --bg-bottom: #f0f6fb;
+    --card-border: rgba(255,99,71,0.12);
+    --card-shadow: 34,48,80;
+    --accent: #ff6347;
+    --accent-2: #d64537;
+    --title: #1f2a44;
+    --muted: #6b7280;
+}
+
+/* Fondo gradiente para toda la página */
+.page {
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+}
+
+/* Botón primario */
+.btn-primary {
+    background-color: var(--accent);
+    transition: background 0.3s;
+}
+.btn-primary:hover {
+    background-color: var(--accent-2);
+}
+
+/* Cards personalizadas */
+.card-custom {
+    border-color: var(--accent-2) !important;
+    box-shadow: 0 18px 40px rgba(var(--card-shadow), 0.12), 0 0 0 6px rgba(255,99,71,0.04) !important;
+}
+
+.card-custom:hover {
+    box-shadow: 0 26px 60px rgba(var(--card-shadow), 0.18) !important;
+}
+
+/* Tags / botones sociales */
+.tag-primary {
+    background: var(--accent) !important;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.tag-primary:hover {
+    background: var(--accent-2);
+}
+
+/* Tipografía */
+h3 {
+    color: var(--title);
+}
+p {
+    color: var(--muted);
+}

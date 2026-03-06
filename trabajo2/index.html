@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web - Footer Moderno</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="page min-h-screen flex flex-col">
+
+    <!-- NAVBAR -->
+    <header class="bg-blue-700 text-white">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <a href="index.html" class="text-2xl font-bold">MiWeb</a>
+            <ul class="flex gap-4">
+                <li><a href="index.html" class="hover:text-gray-300">Inicio</a></li>
+                <li><a href="pages/productos.html" class="hover:text-gray-300">Productos</a></li>
+                <li><a href="pages/contacto.html" class="hover:text-gray-300">Contacto</a></li>
+                <li><a href="pages/login.html" class="hover:text-gray-300">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO / HOME -->
+    <main class="flex-grow flex items-center justify-center p-10">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4 text-blue-900">Bienvenido a MiWeb</h1>
+            <p class="text-gray-700 mb-6">Tu sitio web de ejemplo con navegación y footer moderno tipo Card.</p>
+            <a href="pages/productos.html" class="btn-primary px-6 py-3 rounded-full text-white font-semibold">Ver Productos</a>
+        </div>
+    </main>
+
+    <!-- FOOTER MODERNO -->
+    <footer class="bg-gray-100 py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card contacto -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 card-custom p-5 hover:-translate-y-2 transform transition-all duration-200">
+                <h3 class="text-lg font-extrabold mb-2">Contáctanos</h3>
+                <p class="text-sm text-gray-500">info@miweb.com <br> +57 300 0000000</p>
+            </div>
+            <!-- Card redes sociales -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 card-custom p-5 hover:-translate-y-2 transform transition-all duration-200">
+                <h3 class="text-lg font-extrabold mb-2">Síguenos</h3>
+                <div class="flex gap-2 mt-2">
+                    <a href="#" class="tag-primary px-3 py-1 rounded-full">Facebook</a>
+                    <a href="#" class="tag-primary px-3 py-1 rounded-full">Instagram</a>
+                    <a href="#" class="tag-primary px-3 py-1 rounded-full">Twitter</a>
+                </div>
+            </div>
+            <!-- Card ubicación -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 card-custom p-5 hover:-translate-y-2 transform transition-all duration-200">
+                <h3 class="text-lg font-extrabold mb-2">Ubicación</h3>
+                <p class="text-sm text-gray-500">Calle Falsa 123, Pasto, Colombia</p>
+            </div>
+        </div>
+        <p class="text-center text-gray-500 mt-8">&copy; 2026 MiWeb. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
